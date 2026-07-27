@@ -192,59 +192,59 @@ typedef struct {
  * Clock Enable Macros for GPIOx peripherals
  * */
 
-#define GPIOA_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 0));
-#define GPIOB_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 1));
-#define GPIOC_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 2));
-#define GPIOD_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 3));
-#define GPIOE_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 4));
-#define GPIOF_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 5));
-#define GPIOG_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 6));
-#define GPIOH_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 7));
-#define GPIOI_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 8));
-#define GPIOJ_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 9));
-#define GPIOK_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 10));
+#define GPIOA_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 0))
+#define GPIOB_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 1))
+#define GPIOC_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 2))
+#define GPIOD_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 3))
+#define GPIOE_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 4))
+#define GPIOF_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 5))
+#define GPIOG_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 6))
+#define GPIOH_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 7))
+#define GPIOI_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 8))
+#define GPIOJ_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 9))
+#define GPIOK_PCLK_ENR()		(RCC->AHB1ENR |= (1 << 10))
 
 
 /*
  * Clock Enable Macros for I2Cx peripherals
  * */
 
-#define I2C1_PCLK_ENR()		(RCC->APB1ENR |= (1 << 21));
-#define I2C2_PCLK_ENR()		(RCC->APB1ENR |= (1 << 22));
-#define I2C3_PCLK_ENR()		(RCC->APB1ENR |= (1 << 23));
+#define I2C1_PCLK_ENR()		(RCC->APB1ENR |= (1 << 21))
+#define I2C2_PCLK_ENR()		(RCC->APB1ENR |= (1 << 22))
+#define I2C3_PCLK_ENR()		(RCC->APB1ENR |= (1 << 23))
 
 
 /*
  * Clock Enable Macros for I2Cx peripherals
  * */
 
-#define SPI1_PCLK_ENR()	 	(RCC->APB2ENR |= (1 << 12));
-#define SPI2_PCLK_ENR()	 	(RCC->APB1ENR |= (1 << 14));
-#define SPI3_PCLK_ENR()		(RCC->APB1ENR |= (1 << 15));
+#define SPI1_PCLK_ENR()	 	(RCC->APB2ENR |= (1 << 12))
+#define SPI2_PCLK_ENR()	 	(RCC->APB1ENR |= (1 << 14))
+#define SPI3_PCLK_ENR()		(RCC->APB1ENR |= (1 << 15))
 
 /*
  * Clock Enable Macros for USARTx peripherals
  * */
 
-#define USART1_PCLK_ENR()    (RCC->APB2ENR |= (1 << 4));
-#define USART2_PCLK_ENR()    (RCC->APB1ENR |= (1 << 17));
-#define USART3_PCLK_ENR()    (RCC->APB1ENR |= (1 << 18));
-#define USART6_PCLK_ENR()    (RCC->APB2ENR |= (1 << 5));
+#define USART1_PCLK_ENR()    (RCC->APB2ENR |= (1 << 4))
+#define USART2_PCLK_ENR()    (RCC->APB1ENR |= (1 << 17))
+#define USART3_PCLK_ENR()    (RCC->APB1ENR |= (1 << 18))
+#define USART6_PCLK_ENR()    (RCC->APB2ENR |= (1 << 5))
 
 
 /*
  * Clock Enable Macros for UARTx peripherals
  * */
 
-#define UART4_PCLK_ENR()    (RCC->APB1ENR |= (1 << 19));
-#define UART5_PCLK_ENR()    (RCC->APB2ENR |= (1 << 20));
+#define UART4_PCLK_ENR()    (RCC->APB1ENR |= (1 << 19))
+#define UART5_PCLK_ENR()    (RCC->APB2ENR |= (1 << 20))
 
 
 /*
  * Clock Enable Macros for SYSCFG (System Configuration)
  * */
 
-#define SYSCFG_PCLK_ENR()    (RCC->APB2ENR |= (1 << 14));
+#define SYSCFG_PCLK_ENR()    (RCC->APB2ENR |= (1 << 14))
 
 
 
